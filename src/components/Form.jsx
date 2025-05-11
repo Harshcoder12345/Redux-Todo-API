@@ -56,7 +56,7 @@ if(isLoading){
         <form onSubmit={HandleSubmit}  className=  {dark ?  ' my-3 border bg-white flex flex-col mx-[50px]' : ' my-3 border bg-gray-400  flex flex-col mx-[50px]'}  >
             <input required onChange={(e)=>setTitle(e.target.value)}  value={title}  className='my-3 font-xl bg-white p-3 mx-5 border' type="text" placeholder='Enter the text here' />
             <input required onChange={(e)=>setDescription(e.target.value)}  value={description}  className='my-3 bg-white mx-5 p-3 border'  type="number" placeholder='Enter the number here' />
-            <button type='submit' className='my-3 py-2 border border-blue-700 mx-5 bg-blue-700 text-white font-semibold rounded hover:bg-blue-500'>Submit</button>
+            <button type='submit' className='my-3 py-2 border border-blue-600 mx-5 bg-blue-700 text-white font-semibold rounded hover:bg-blue-500'>Submit</button>
         </form>
     </div>
   )
